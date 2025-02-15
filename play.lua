@@ -1,20 +1,26 @@
 -- play - Grid Pattern Recorder
 print("Grid Pattern Recorder Initialized")
-TRANSPOSE_DEFAULT      = 0
-DEFAULT_VELOCITY       = 90
-DEFAULT_INTERVAL       = 10
-global_time            = 0
-playback_active        = false
-playback_index         = 1
-midichannel            = 1
-flash_state            = false
 
-screen_mode            = { channel_edit = 1, play = 2, pattern_edit = 3 }
-current_screen         = screen_mode.play
 
-transpose              = TRANSPOSE_DEFAULT
-shift                  = 0
-selected_scale         = 1
+
+TRANSPOSE_DEFAULT = 0
+DEFAULT_VELOCITY  = 90
+DEFAULT_INTERVAL  = 10
+
+global_time       = 0
+playback_active   = false
+playback_index    = 1
+midichannel       = 1
+
+screen_mode       = { channel_edit = 1, play = 2, pattern_edit = 3 }
+current_screen    = screen_mode.play
+
+transpose         = TRANSPOSE_DEFAULT
+shift             = 0
+selected_scale    = 1
+
+
+
 scales                 = {
     { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 },
     { 0, 2, 4, 7, 9 },
@@ -82,7 +88,6 @@ function start_recording(index)
     recorder.playback_speed = 1
     recorder.recording_active = true
     recorder.record_start_time = global_time
-    flash_state = true
     metro_set(4, 500, -1)
 
     local x, y = (index - 1) % 4 + 9, math.floor((index - 1) / 4) + 1
@@ -94,7 +99,6 @@ end
 function stop_recording(index)
     local recorder = recorders[index]
     recorder.recording_active = false
-    flash_state = false
     metro_set(4, 0)
 
     clear_all_held_notes()
@@ -618,8 +622,11 @@ function handle_edit_mode_toggle(x, y, z)
 
         if current_screen == screen_mode.channel_edit then
             display_channel_edit_mode()
+            grid_led(15, 1, 10)
+
             print("Edit Mode Enabled")
         else
+            grid_led(15, 1, 5)
             print("Play Mode Enabled")
         end
     end
