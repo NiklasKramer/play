@@ -6,6 +6,7 @@ print("Grid Pattern Recorder Initialized")
 TRANSPOSE_DEFAULT = 0
 DEFAULT_VELOCITY  = 90
 DEFAULT_INTERVAL  = 10
+MAX_ENTRIES       = 256
 
 global_time       = 0
 playback_active   = false
@@ -18,6 +19,8 @@ current_screen    = screen_mode.play
 transpose         = TRANSPOSE_DEFAULT
 shift             = 0
 selected_scale    = 1
+total_entries     = 0
+
 
 
 
@@ -147,11 +150,28 @@ function stop_playback(index)
 end
 
 function record_event(x, y, z)
+    if total_entries >= MAX_ENTRIES then
+        print("⚠️ Global recording limit reached: " .. MAX_ENTRIES .. " events (Recording stopped)")
+
+        for i = 1, 16 do
+            grid_led(i, 15, 1)
+        end
+        grid_refresh()
+        return
+    end
+
     for index, recorder in ipairs(recorders) do
         if recorder.recording_active then
             local timestamp = global_time - recorder.record_start_time
             table.insert(recorder.recording, { x = x, y = y, z = z, time = timestamp, channel = midichannel })
-            print("Recorded event in Recorder " .. index .. " at time " .. timestamp)
+
+            total_entries = total_entries + 1
+            print("Recorder " ..
+                index .. " - Total Entries: " .. #recorder.recording .. " | Global Total: " .. total_entries)
+
+            if total_entries < MAX_ENTRIES then
+                clear_limit_indicator()
+            end
         end
     end
 end
@@ -162,12 +182,22 @@ function handle_pattern_recorder(x, y, z)
         local recorder = recorders[index]
 
         if shift == 1 then
+            if #recorder.recording > 0 then
+                total_entries = math.max(0, total_entries - #recorder.recording)
+            end
+
             recorder.recording = {}
             recorder.recording_active = false
             recorder.playback_active = false
             grid_led(x, y, 1)
             grid_refresh()
-            print("Recorder " .. index .. " cleared")
+
+            print("Recorder " .. index .. " cleared | Global Total Entries: " .. total_entries)
+
+            -- ✅ If we are now below MAX_ENTRIES, turn off line 15
+            if total_entries < MAX_ENTRIES then
+                clear_limit_indicator()
+            end
         elseif z == 1 then
             if not recorder.recording_active and not recorder.playback_active and #recorder.recording == 0 then
                 start_recording(index)
@@ -744,11 +774,9 @@ function metro(index, stage)
                     recorder.playback_index = recorder.playback_index + 1
 
                     if recorder.playback_index > #recorder.recording then
-                        print("Last event reached, ensuring loop accuracy")
                         send_note_off(event.channel, event.x + event.y * 5 + 50)
                         recorder.playback_index = 1
                         recorder.record_start_time = global_time
-                        print("Recorder " .. rec_index .. " looped playback at speed " .. recorder.playback_speed)
                     end
                 end
             end
@@ -806,6 +834,14 @@ function clear_section_leds()
             grid_led(x, y, 0)
         end
     end
+end
+
+function clear_limit_indicator()
+    for i = 1, 16 do
+        grid_led(i, 15, 0)
+    end
+    grid_refresh()
+    print("ℹ️  Total Entries below limit: Line 15 indicator cleared.")
 end
 
 function refresh_recorder_leds()
