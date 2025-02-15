@@ -1,0 +1,361 @@
+2025-02-15 16:48:33,706 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:42,185 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 16:48:44,098 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:44,294 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:51,240 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 16:48:57,124 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:57,139 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:58,232 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:58,244 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:58,381 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:58,391 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:58,498 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:58,511 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:58,655 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:58,667 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:59,020 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:59,032 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:48:59,149 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:48:59,164 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:01,066 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:01,081 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:01,964 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:01,974 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:02,174 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:02,185 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:02,683 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:02,695 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:14,888 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:14,899 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:30,707 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:30,722 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:39,570 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:39,581 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:49,268 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:49,280 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:49,482 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:49,493 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:50,335 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:50,348 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:50,713 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:50,725 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:51,082 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:51,092 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:51,942 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:51,960 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:53,336 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:53,347 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:49:54,249 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:49:54,260 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:51:33,321 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 16:51:40,212 diii.iii        ERROR   MainProcess lost connection: read failed: [Errno 6] Device not configured
+2025-02-15 16:52:19,165 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:21,466 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 16:52:29,700 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:29,712 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:33,858 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:33,871 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:40,308 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:40,318 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:40,948 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:40,957 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:41,162 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:41,175 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:43,130 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:43,142 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:43,558 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:43,568 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:44,251 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:44,266 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:44,943 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:44,953 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:46,177 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:46,192 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:47,191 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:47,201 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:47,716 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:47,732 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:52:48,252 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:52:48,266 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:54:10,691 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:54:10,701 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:54:14,877 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:54:14,890 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:54:15,245 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:54:15,256 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:00,060 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 16:55:05,746 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:05,762 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:08,774 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:08,788 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:09,924 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:09,937 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:23,075 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:23,089 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:24,719 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:24,730 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:36,676 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:36,690 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 16:55:38,543 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 16:55:38,555 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:17,819 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:01:19,972 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:19,990 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:23,819 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:23,831 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:26,478 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:26,491 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:27,445 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:27,459 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:39,106 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:01:41,047 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:41,242 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:43,475 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:43,490 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:49,586 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:49,596 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:50,925 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:50,939 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:51,085 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:51,096 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:51,879 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:51,890 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:52,141 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:52,150 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:01:56,513 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:01:56,525 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:02:00,174 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:02:00,187 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:02:05,606 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:02:05,618 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:02:58,971 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:05:53,337 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:05:53,353 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:06,239 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:06,252 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:17,060 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:17,072 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:18,261 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:18,274 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:21,133 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:21,143 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:23,194 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:23,209 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:28,945 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:28,961 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:36,506 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:36,517 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:40,287 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:40,300 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:46,364 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:46,377 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:47,795 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:47,807 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:06:50,559 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:06:50,575 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:08:25,217 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:08:25,412 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:20:25,820 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:20:25,832 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:22:12,080 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:22:12,092 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:43,392 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:25:45,391 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:45,402 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:52,863 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:52,878 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:53,656 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:53,669 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:53,828 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:53,839 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:54,285 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:54,297 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:54,819 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:54,832 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:55,054 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:55,064 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:58,369 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:25:58,381 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:25:59,990 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:00,004 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:00,811 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:00,823 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:11,432 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:11,444 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:13,612 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:13,625 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:15,842 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:15,854 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:16,502 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:16,515 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:18,265 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:18,277 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:20,314 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:20,328 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:26:29,353 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:26:29,371 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:27:10,375 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:27:10,386 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:28:37,712 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:28:39,564 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:28:39,761 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:28:46,834 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:28:53,135 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:28:53,147 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:28:53,731 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:28:53,742 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:28:54,095 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:28:54,106 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:29:03,035 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:29:03,046 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:29:03,888 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:29:03,899 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:29:04,255 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:29:04,266 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:29:04,841 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:29:04,852 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:15,756 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:30:20,401 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:20,411 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:21,310 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:21,321 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:21,454 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:21,467 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:21,577 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:21,589 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:21,726 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:21,739 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:21,939 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:21,951 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:22,089 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:22,101 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:22,591 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:22,601 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:26,379 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:26,391 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:26,912 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:26,923 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:28,620 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:28,629 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:30:29,153 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:30:29,166 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:09,471 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:31:11,474 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:11,486 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:13,082 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:13,094 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:16,747 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:16,758 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:16,960 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:16,972 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:17,116 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:17,127 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:17,952 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:17,964 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:18,070 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:18,081 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:18,543 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:18,556 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:21,242 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:21,253 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:34,417 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:34,429 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:37,659 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:37,670 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:40,255 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:40,267 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:55,909 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:55,921 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:57,511 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:57,523 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:59,380 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:59,391 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:31:59,914 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:31:59,926 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:03,741 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:03,752 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:06,207 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:06,221 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:08,232 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:08,244 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:10,099 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:10,110 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:10,314 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:10,326 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:10,472 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:10,484 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:10,634 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:10,646 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:11,968 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:11,978 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:12,286 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:12,298 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:35,660 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:32:37,484 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:37,681 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:40,220 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:32:45,737 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:45,749 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:46,857 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:46,869 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:48,551 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:48,564 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:48,701 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:48,712 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:48,855 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:48,866 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:49,793 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:49,807 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:54,267 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:54,278 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:58,931 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:58,944 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:32:59,168 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:32:59,179 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:34:29,757 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:34:37,707 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:34:37,718 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:34:39,775 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:34:39,786 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:34:44,987 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:34:44,997 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:34:46,196 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:34:46,207 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:10,229 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:10,241 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:16,884 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:35:18,705 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:18,901 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:24,268 diii.iii        INFO    MainProcess opened file: <_io.TextIOWrapper name='play.lua' mode='r' encoding='UTF-8'>
+2025-02-15 17:35:26,092 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:26,288 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:28,583 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:28,595 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:29,149 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:29,163 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:29,571 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:29,584 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:29,698 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:29,709 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:29,998 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:30,010 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:30,413 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:30,423 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:38,024 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:38,037 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:39,540 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:39,552 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:43,431 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:43,442 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:46,825 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:46,839 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:50,742 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:50,754 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:53,783 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:53,795 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:56,115 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:56,126 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:35:58,344 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:35:58,356 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631
+2025-02-15 17:36:00,591 diii.iii        ERROR   MainProcess lost connection: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2025-02-15 17:36:00,602 diii.iii        INFO    MainProcess connected to device on /dev/cu.usbmodemm23673631

@@ -1,4 +1,4 @@
--- Grid Pattern Recorder with Playback and Visual Indicators
+-- play - Grid Pattern Recorder
 print("Grid Pattern Recorder Initialized")
 TRANSPOSE_DEFAULT      = 0
 DEFAULT_VELOCITY       = 90
@@ -26,14 +26,15 @@ scales                 = {
 playback_speed_options = { 0.25, 0.33, 0.5, 0.75, 1, 1.25, 1.5, 2, 4 }
 
 recorders              = {
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 },
-    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1 }
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false },
+    { recording = {}, recording_active = false, playback_active = false, playback_index = 1, record_start_time = 0, playback_speed = 1, reverse = false }
+
 }
 
 
@@ -115,6 +116,10 @@ function start_playback(index)
     local interval = DEFAULT_INTERVAL / (recorder.playback_speed or 1)
     metro_set(2, interval, -1)
 
+    if current_screen ~= screen_mode.pattern_edit and current_screen ~= screen_mode.channel_edit then
+        refresh_recorder_leds()
+    end
+
     refresh_recorder_leds()
 
     print("Recorder " .. index .. " started playback with speed " .. recorder.playback_speed)
@@ -123,11 +128,14 @@ end
 function stop_playback(index)
     local recorder = recorders[index]
     recorder.playback_active = false
-
     recorder.playback_index = 1
     recorder.record_start_time = 0
 
     clear_all_held_notes()
+
+    if current_screen ~= screen_mode.pattern_edit and current_screen ~= screen_mode.channel_edit then
+        refresh_recorder_leds()
+    end
 
     refresh_recorder_leds()
 
@@ -332,9 +340,8 @@ end
 
 function handle_octave_selection(x, y, z)
     if z == 1 and y == 9 then
-        clear_all_held_notes() -- ✅ Use helper function
+        clear_all_held_notes()
 
-        -- ✅ Change octave based on the grid position
         if x == 8 or x == 9 then
             channels[midichannel].octave = 0
         elseif x < 8 then
@@ -450,13 +457,12 @@ end
 
 function display_sustain_for_channel()
     for i = 1, 16 do
-        grid_led(i, 7, 0) -- Clear row first
+        grid_led(i, 7, 0)
     end
 
-    -- Use different LED brightness for a pattern
     for i = 1, 16, 3 do
         local brightness = (channels[midichannel].sustain == 1) and 15 or 3
-        grid_led(i, 7, brightness) -- Bright LEDs for sustain ON
+        grid_led(i, 7, brightness)
     end
 
     grid_refresh()
@@ -464,10 +470,9 @@ end
 
 function display_octave_for_channel()
     for i = 1, 16 do
-        grid_led(i, 9, 0) -- Clear row
+        grid_led(i, 9, 0)
     end
 
-    -- Pre-light the full octave range (-4 to +4)
     for i = 4, 13 do
         grid_led(i, 9, 1)
     end
@@ -475,16 +480,15 @@ function display_octave_for_channel()
     grid_led(9, 9, 8)
 
     local octave = channels[midichannel].octave
-    local center_x = 8 -- Middle keys (8 & 9) represent octave 0
+    local center_x = 8
 
-    -- Highlight selected octave
     if octave == 0 then
         grid_led(8, 9, 17)
         grid_led(9, 9, 15)
     elseif octave < 0 then
-        grid_led(center_x + octave, 9, 10)     -- Left side (down)
+        grid_led(center_x + octave, 9, 10)
     else
-        grid_led(center_x + octave + 1, 9, 10) -- Right side (up)
+        grid_led(center_x + octave + 1, 9, 10)
     end
 
     grid_refresh()
@@ -492,13 +496,12 @@ end
 
 function display_chord_selection()
     for i = 1, 16 do
-        grid_led(i, 12, 1) -- Dim pre-highlight for all options
+        grid_led(i, 12, 1)
     end
 
-    -- Highlight selected chord
     for i, chord in ipairs(chords) do
         if chord == channels[midichannel].chord then
-            grid_led(i, 12, 15) -- Brightest for selected chord
+            grid_led(i, 12, 15)
         end
     end
 
@@ -529,10 +532,8 @@ function handle_channel_selection(x, y, z)
             local prev_y = math.floor((midichannel - 1) / 4) + 1
             grid_led(prev_x, prev_y, 3)
 
-            -- ✅ Set new channel
             midichannel = new_channel
 
-            -- ✅ Highlight selected channel properly
             grid_led(x, y, 10)
             grid_refresh()
 
@@ -602,8 +603,8 @@ function handle_note_generation(x, y, z, playback_channel)
 end
 
 function handle_shift(x, y, z)
-    shift = z                               -- Active while pressed
-    grid_led(16, 1, shift == 1 and 15 or 1) -- Bright when active, dim otherwise
+    shift = z
+    grid_led(16, 1, shift == 1 and 15 or 1)
     grid_refresh()
     print("Shift " .. (shift == 1 and "Activated" or "Deactivated"))
 end
@@ -725,31 +726,25 @@ function metro(index, stage)
 
                     handle_note_generation(event.x, event.y, event.z, event.channel)
 
-                    if current_screen == screen_mode.play and not current_screen == screen_mode.pattern_edit then
+                    if current_screen == screen_mode.play then
                         if event.channel == midichannel then
-                            -- Full brightness for the current channel
                             grid_led(event.x, event.y, event.z * 15)
                         else
-                            -- Dim brightness for other channels
                             grid_led(event.x, event.y, event.z * 1)
                         end
                     end
 
-
                     recorder.playback_index = recorder.playback_index + 1
 
                     if recorder.playback_index > #recorder.recording then
+                        print("Last event reached, ensuring loop accuracy")
+                        send_note_off(event.channel, event.x + event.y * 5 + 50)
                         recorder.playback_index = 1
                         recorder.record_start_time = global_time
                         print("Recorder " .. rec_index .. " looped playback at speed " .. recorder.playback_speed)
                     end
                 end
             end
-        end
-    elseif index == 3 then
-        if current_screen == screen_mode.play then
-            grid_led(16, 4, 0)
-            grid_refresh()
         end
     end
 end
@@ -789,10 +784,9 @@ end
 
 function send_note_off(channel, note)
     if held_notes[channel] and held_notes[channel][note] then
-        midi_tx(0, 0x80 + channel - 1, note, 0) -- ✅ Send MIDI Note Off
-        held_notes[channel][note] = nil         -- ✅ Remove from tracking
+        midi_tx(0, 0x80 + channel - 1, note, 0)
+        held_notes[channel][note] = nil
 
-        -- ✅ If no more held notes exist for this channel, clear the table
         if next(held_notes[channel]) == nil then
             held_notes[channel] = nil
         end
@@ -808,24 +802,21 @@ function clear_section_leds()
 end
 
 function refresh_recorder_leds()
-    -- ✅ Do not refresh if in pattern edit mode
-    if current_screen == screen_mode.pattern_edit then
-        return
+    if current_screen == screen_mode.play then
+        initialize_grid()
     end
-
-    initialize_grid()
 
     for index, recorder in ipairs(recorders) do
         local x, y = (index - 1) % 4 + 9, math.floor((index - 1) / 4) + 1
 
         if recorder.recording_active then
-            grid_led(x, y, 15) -- 🔴 Recording (Bright Red)
+            grid_led(x, y, 15)
         elseif recorder.playback_active then
-            grid_led(x, y, 10) -- 🟠 Playing (Bright Orange)
+            grid_led(x, y, 10)
         elseif #recorder.recording > 0 then
-            grid_led(x, y, 5)  -- 🔵 Paused (Dim Blue)
+            grid_led(x, y, 5)
         else
-            grid_led(x, y, 1)  -- ⚫ Empty (Dim)
+            grid_led(x, y, 1)
         end
     end
 
