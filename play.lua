@@ -194,7 +194,6 @@ function handle_pattern_recorder(x, y, z)
 
             print("Recorder " .. index .. " cleared | Global Total Entries: " .. total_entries)
 
-            -- ✅ If we are now below MAX_ENTRIES, turn off line 15
             if total_entries < MAX_ENTRIES then
                 clear_limit_indicator()
             end
@@ -601,7 +600,6 @@ function handle_note_generation(x, y, z, playback_channel)
 
     local base_velocity = channel_settings.velocity
     local velocity_range = channel_settings.velocity_range
-    local final_velocity = math.max(0, math.min(127, base_velocity + math.random(-velocity_range, velocity_range)))
 
     local chord_intervals = channel_settings.chord
 
