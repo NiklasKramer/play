@@ -107,6 +107,10 @@ function stop_recording(index)
     clear_all_held_notes()
     refresh_recorder_leds()
 
+    -- insert dummy note for record ending
+    table.insert(recorder.recording,
+        { x = 0, y = 0, z = 0, time = global_time - recorder.record_start_time, channel = midichannel })
+
     print("Recorder " .. index .. " stopped recording and cleared all stuck notes")
 end
 
