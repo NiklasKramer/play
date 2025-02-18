@@ -123,7 +123,6 @@ function start_playback(index)
     recorder.playback_index = 1
     recorder.record_start_time = global_time
 
-    local interval = DEFAULT_INTERVAL / (recorder.playback_speed or 1)
 
     if current_screen ~= screen_mode.pattern_edit and current_screen ~= screen_mode.channel_edit then
         refresh_recorder_leds()
@@ -721,7 +720,7 @@ end
 function my_metro(stage)
     global_time = global_time + 0.01
 
-    for rec_index, recorder in ipairs(recorders) do
+    for recorder in ipairs(recorders) do
         if recorder.playback_active and recorder.playback_index <= #recorder.recording then
             local event = recorder.recording[recorder.playback_index]
 
