@@ -720,7 +720,7 @@ end
 function my_metro(stage)
     global_time = global_time + 0.01
 
-    for recorder in ipairs(recorders) do
+    for rec_index, recorder in ipairs(recorders) do
         if recorder.playback_active and recorder.playback_index <= #recorder.recording then
             local event = recorder.recording[recorder.playback_index]
 
