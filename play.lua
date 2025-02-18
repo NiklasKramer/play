@@ -20,6 +20,7 @@ transpose         = TRANSPOSE_DEFAULT
 shift             = 0
 selected_scale    = 1
 total_entries     = 0
+global_metro      = nil
 
 
 
@@ -748,38 +749,36 @@ end
 --
 --
 -- // METRO CALLBACK \\
-function metro(index, stage)
-    if index == 2 then
-        global_time = global_time + 0.01
+function my_metro(stage)
+    global_time = global_time + 0.01
 
-        for rec_index, recorder in ipairs(recorders) do
-            if recorder.playback_active and recorder.playback_index <= #recorder.recording then
-                local event = recorder.recording[recorder.playback_index]
+    for rec_index, recorder in ipairs(recorders) do
+        if recorder.playback_active and recorder.playback_index <= #recorder.recording then
+            local event = recorder.recording[recorder.playback_index]
 
-                local speed_factor = 1 / recorder.playback_speed
-                if global_time >= event.time * speed_factor + recorder.record_start_time then
-                    if recorder.playback_index > 1 then
-                        local prev_event = recorder.recording[recorder.playback_index - 1]
-                        send_note_off(prev_event.channel, prev_event.x + prev_event.y * 5 + 50)
+            local speed_factor = 1 / recorder.playback_speed
+            if global_time >= event.time * speed_factor + recorder.record_start_time then
+                if recorder.playback_index > 1 then
+                    local prev_event = recorder.recording[recorder.playback_index - 1]
+                    send_note_off(prev_event.channel, prev_event.x + prev_event.y * 5 + 50)
+                end
+
+                handle_note_generation(event.x, event.y, event.z, event.channel)
+
+                if current_screen == screen_mode.play then
+                    if event.channel == midichannel then
+                        grid_led(event.x, event.y, event.z * 15)
+                    else
+                        grid_led(event.x, event.y, event.z * 1)
                     end
+                end
 
-                    handle_note_generation(event.x, event.y, event.z, event.channel)
+                recorder.playback_index = recorder.playback_index + 1
 
-                    if current_screen == screen_mode.play then
-                        if event.channel == midichannel then
-                            grid_led(event.x, event.y, event.z * 15)
-                        else
-                            grid_led(event.x, event.y, event.z * 1)
-                        end
-                    end
-
-                    recorder.playback_index = recorder.playback_index + 1
-
-                    if recorder.playback_index > #recorder.recording then
-                        send_note_off(event.channel, event.x + event.y * 5 + 50)
-                        recorder.playback_index = 1
-                        recorder.record_start_time = global_time
-                    end
+                if recorder.playback_index > #recorder.recording then
+                    send_note_off(event.channel, event.x + event.y * 5 + 50)
+                    recorder.playback_index = 1
+                    recorder.record_start_time = global_time
                 end
             end
         end
@@ -787,12 +786,12 @@ function metro(index, stage)
 end
 
 function start_global_timer()
-    metro_set(2, 10, -1)
+    global_metro = metro.new(my_metro, 10, -1)
     print("Global timer started")
 end
 
 function stop_global_timer()
-    metro_set(2, 0)
+    global_metro:stop()
     print("Global timer stopped")
 end
 
